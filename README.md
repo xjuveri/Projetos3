@@ -9,7 +9,7 @@
 | ---------------  | --------------------------- |
 | Júlia Veríssimo  | jov@cesar.school             |
 | Lucca da Veiga   | lvg2@cesar.school            |
-| Ian Nunes         | email_de_ian@dominio.com     |
+| Ian Nunes         | @cesar.school    |
 | Mirna Lustosa     | mlam@cesar.school             |
 
 
