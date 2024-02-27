@@ -5,9 +5,9 @@
 | :----------------------------------------------------------------------------------------------------------------------------: | :----------------------------------------------------------------------------------------------------------------------------: | :----------------------------------------------------------------------------------------------------------------------------: | :----------------------------------------------------------------------------------------------------------------------------: |
 | [@xjuveri](https://github.com/xjuveri) | [@Luketam](https://github.com/Luketam) | [@ianbnunes](https://github.com/ianbnunes) | [@mihlamonteiro](https://github.com/mihlamonteiro) |
 
-Júlia Veríssimo - jov@cesar.school <br/>
-Lucca da Veiga - lvg2@cesar.school <br/>
-Ian Nunes - <br/>
-Mirna Lustosa - mlam@cesar.school <br/>
-  
-Orientador: 
+
+| Júlia Veríssimo | Lucca da Veiga | Ian Nunes | Mirna Lustosa |
+| --------------- | -------------- | --------- | ------------- |
+| ![Júlia Veríssimo](https://github.com/xjuveri.png) | ![Lucca da Veiga](https://github.com/Luketam.png) | ![Ian Nunes](https://github.com/ianbnunes.png) | ![Mirna Lustosa](https://github.com/mihlamonteiro.png) |
+| [Email](mailto:jov@cesar.school) | [Email](mailto:lvg2@cesar.school) | [Email](mailto:email_de_ian@dominio.com) | [Email](mailto:mlam@cesar.school) |
+
