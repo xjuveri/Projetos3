@@ -9,7 +9,7 @@
 | ---------------  | --------------------------- |
 | Júlia Veríssimo  | jov@cesar.school             |
 | Lucca da Veiga   | lvg2@cesar.school            |
-| Ian Nunes         | @cesar.school    |
+| Ian Nunes         | ibn@cesar.school    |
 | Mirna Lustosa     | mlam@cesar.school             |
 
 Orientador:
