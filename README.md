@@ -11,7 +11,7 @@
 | Lucca da Veiga   | lvg2@cesar.school            |
 | Ian Nunes         | ibn@cesar.school    |
 | Mirna Lustosa     | mlam@cesar.school             |
-| Luiz Flavius     | @cesar.school              |
+| Luiz Flavius     | lfvsf@cesar.school              |
 
 **Orientador:** Guilmour Rossi
 
