@@ -13,4 +13,4 @@
 | Mirna Lustosa     | mlam@cesar.school             |
 | Luiz Flavius     | @cesar.school              |
 
-Orientador: Guilmour Rossi
+**Orientador:** Guilmour Rossi
