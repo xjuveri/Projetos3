@@ -14,7 +14,7 @@ Somos o grupo 16 de projetos, do 3º período de Ciência da Computação e noss
 | Ian Nunes         | ibn@cesar.school           |
 | Mirna Lustosa     | mlam@cesar.school          |
 | Luiz Flavius     | lfvsf@cesar.school           |
-| Matheos Guerra   |  @cesar.school
+| Matheos Guerra   |  mog@cesar.school
 
 **Orientador:** Guilmour Rossi
 
