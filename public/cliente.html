@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plataforma Libreflix</title>
+    <link rel="stylesheet" href="css/cliente.css">
+</head>
+<body>
+    <nav>
+        <button onclick="window.location.href='index.html'">Home</button>
+    </nav>
+    <div class="video-container">
+        <div class="video-placeholder" id="video-placeholder">
+            <p>Conteúdo do Vídeo</p>
+        </div>
+        <button id="pause-button">Pausar</button>
+    </div>
+    <div id="anuncio-exibido" class="anuncio" style="display: none;">
+        <button id="skip-ad-button" style="display: none;">Pular Anúncio</button>
+    </div>
+
+    <script src="js/cliente.js"></script>
+</body>
+</html>

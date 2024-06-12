@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestão de Anúncios</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <nav>
+        <button onclick="mostrarSeção('solicitacao')">Solicitação de Anúncios</button>
+        <button onclick="mostrarSeção('admin')">Administração de Anúncios</button>
+        <button onclick="window.location.href='cliente.html'">Visão Cliente</button>
+    </nav>
+    
+    <section id="solicitacao">
+        <h1>Solicitação de Anúncios</h1>
+        <form id="solicitacao-form">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required><br>
+            <label for="proposta">Proposta:</label>
+            <textarea id="proposta" name="proposta" required></textarea><br>
+            <label for="urlImagem">URL da Imagem:</label>
+            <input type="text" id="urlImagem" name="urlImagem" required><br>
+            <button type="submit">Enviar Solicitação</button>
+        </form>
+    </section>
+    
+    <section id="admin" style="display: none;">
+        <h1>Administração de Anúncios</h1>
+        <div id="admin-section">
+            <button id="load-anuncios">Carregar Anúncios</button>
+            <div id="anuncios-list"></div>
+        </div>
+    </section>
+
+    <script src="js/anunciante.js"></script>
+    <script src="js/bancoDeDados.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
