@@ -7,10 +7,13 @@
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-    <nav>
-        <button onclick="mostrarSeção('solicitacao')">Solicitação de Anúncios</button>
-        <button onclick="mostrarSeção('admin')">Administração de Anúncios</button>
-        <button onclick="window.location.href='cliente.html'">Visão Cliente</button>
+    <nav class="navbar">
+        <img src="images/logo.png" alt="Logo" class="logo">
+        <ul class="nav-links">
+            <li><button id="btn-solicitacao">Solicitação de Anúncios</button></li>
+            <li><button id="btn-admin">Administração de Anúncios</button></li>
+            <li><button onclick="window.location.href='cliente.html'">Visão Cliente</button></li>
+        </ul>
     </nav>
     
     <section id="solicitacao">
@@ -34,8 +37,19 @@
         </div>
     </section>
 
-    <script src="js/anunciante.js"></script>
-    <script src="js/bancoDeDados.js"></script>
-    <script src="js/main.js"></script>
+    <script type="module">
+        import { mostrarSeção } from './js/main.js';
+
+        document.getElementById('btn-solicitacao').addEventListener('click', function() {
+            mostrarSeção('solicitacao');
+        });
+
+        document.getElementById('btn-admin').addEventListener('click', function() {
+            mostrarSeção('admin');
+        });
+
+        // Inicializar mostrando a seção de solicitação
+        mostrarSeção('solicitacao');
+    </script>
 </body>
 </html>

@@ -1,3 +1,6 @@
+import Anuncio from './anunciante.js';
+import BancoDeDados from './bancoDeDados.js';
+
 document.getElementById('solicitacao-form').addEventListener('submit', function (event) {
     event.preventDefault();
 
@@ -5,8 +8,8 @@ document.getElementById('solicitacao-form').addEventListener('submit', function 
     const proposta = document.getElementById('proposta').value;
     const urlImagem = document.getElementById('urlImagem').value;
 
-    const anunciante = new Anunciante(nome, proposta, urlImagem);
-    anunciante.enviarSolicitacao();
+    const anuncio = new Anuncio(nome, proposta, urlImagem);
+    anuncio.enviarSolicitacao();
 
     this.reset();
 });
@@ -41,7 +44,7 @@ function aprovarAnuncio(id) {
                 headers: {
                     'Content-Type': 'application/json'
                 },
-                body: JSON.stringify([anuncio])
+                body: JSON.stringify(anuncios)
             })
             .then(response => response.text())
             .then(data => {
@@ -56,13 +59,12 @@ function aprovarAnuncio(id) {
     });
 }
 
-function mostrarSeção(seçãoId) {
+window.aprovarAnuncio = aprovarAnuncio;  // Expor a função para o escopo global
+
+export function mostrarSeção(seçãoId) {
     const seções = document.querySelectorAll('section');
     seções.forEach(seção => {
         seção.style.display = 'none';
     });
     document.getElementById(seçãoId).style.display = 'block';
 }
-
-// Inicializar mostrando a seção de solicitação
-mostrarSeção('solicitacao');

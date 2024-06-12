@@ -8,3 +8,5 @@ class BancoDeDados {
             });
     }
 }
+
+export default BancoDeDados;

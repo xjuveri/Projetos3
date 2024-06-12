@@ -1,44 +1,16 @@
 [
   {
-    "id": 1718155941273,
-    "anunciante": "ola",
-    "proposta": "oie",
-    "urlImagem": "como esta",
+    "id": 1718161920580,
+    "anunciante": "Luiz",
+    "proposta": "lucca",
+    "urlImagem": "julia",
     "ativo": true
   },
   {
-    "id": 1718155968121,
-    "anunciante": "julia",
-    "proposta": "sabe muito",
-    "urlImagem": "lucca",
-    "ativo": true
-  },
-  {
-    "id": 1718156481200,
-    "anunciante": "pele",
-    "proposta": "alouu",
-    "urlImagem": "juliaa",
-    "ativo": true
-  },
-  {
-    "id": 1718156908109,
-    "anunciante": "asd",
-    "proposta": "asdasd",
-    "urlImagem": "asdasd",
-    "ativo": true
-  },
-  {
-    "id": 1718157687549,
-    "anunciante": "oi",
-    "proposta": "Luiz",
-    "urlImagem": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.petlove.com.br%2Fdicas%2Fcachorro-na-chuva&psig=AOvVaw3pSqRLe4qdt04bpnVfIu_F&ust=1718244077065000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCLDP8ZD81IYDFQAAAAAdAAAAABAE",
-    "ativo": true
-  },
-  {
-    "id": 1718158877513,
-    "anunciante": "asdsad",
-    "proposta": "asdasddvfdaf",
-    "urlImagem": "asdfasddfgsdgdfs",
+    "id": 1718162766149,
+    "anunciante": "asdasdsafsdf",
+    "proposta": "asdfdscxvvxscz",
+    "urlImagem": "adsfgasdgasdgsdcv",
     "ativo": true
   }
 ]
